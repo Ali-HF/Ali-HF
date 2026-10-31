@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ali@terminal</title>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+<style>
+  :root { --fg:#05d9e8; --accent:#ff2a6d; --bg:#0d0221; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; background:#000; }
+  body { font-family:'VT323',monospace; font-size:22px; color:var(--fg); }
+  #matrix { position:fixed; inset:0; z-index:0; opacity:.0; transition:opacity .4s; }
+  body.rain #matrix { opacity:.5; }
+  #screen { position:relative; z-index:1; min-height:100%; padding:20px 18px 60px; background:var(--bg);
+    text-shadow:0 0 6px var(--fg); max-width:980px; margin:0 auto; }
+  #screen::after { content:""; position:fixed; inset:0; pointer-events:none; z-index:5;
+    background:repeating-linear-gradient(0deg, rgba(0,0,0,.22) 0 2px, transparent 2px 4px);
+    box-shadow: inset 0 0 120px rgba(0,0,0,.7); animation:flicker 4s infinite; }
+  @keyframes flicker { 0%,100%{opacity:.95} 50%{opacity:1} 52%{opacity:.88} }
+  pre { margin:0; white-space:pre-wrap; word-break:break-word; font:inherit; }
+  .accent { color:var(--accent); text-shadow:0 0 6px var(--accent); }
+  .dim { opacity:.65; }
+  .line { margin:2px 0; }
+  .prompt { display:flex; gap:10px; align-items:center; }
+  #input { flex:1; background:transparent; border:0; outline:0; color:#fff; font:inherit; caret-color:var(--accent);
+    text-shadow:0 0 6px #fff; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<canvas id="matrix"></canvas>
+<div id="screen">
+  <div id="out"></div>
+  <label class="prompt"><span class="accent">ali@karachi:~$</span><input id="input" autocomplete="off" autocapitalize="off" spellcheck="false" autofocus></label>
+</div>
+
+<script>
+const out = document.getElementById('out');
+const input = document.getElementById('input');
+const screen = document.getElementById('screen');
+const born = new Date('2024-01-01'); // adjust: when you started coding
+
+const BANNER = `
+ █████╗ ██╗     ██╗      ██╗  ██╗███████╗
+██╔══██╗██║     ██║      ██║  ██║██╔════╝
+███████║██║     ██║█████╗███████║█████╗
+██╔══██║██║     ██║╚════╝██╔══██║██╔══╝
+██║  ██║███████╗██║      ██║  ██║██║
+╚═╝  ╚═╝╚══════╝╚═╝      ╚═╝  ╚═╝╚═╝`;
+
+const projects = [
+  ['Memory-Allocator', 'allocators beating std heap (C++)', 'https://github.com/Ali-HF/Memory-Allocator'],
+  ['webrtc-call-app', 'P2P WebRTC video calling app (Node.js)', 'https://github.com/Ali-HF/webrtc-call-app'],
+  ['ned-3d-dsa-visualizer', 'interactive 3D DSA visualizer (TS)', 'https://github.com/Ali-HF/ned-3d-dsa-visualizer'],
+  ['ned-portal-attendance-tracker', 'attendance tracking for NED portal (JS)', 'https://github.com/Ali-HF/ned-portal-attendance-tracker'],
+  ['PF', 'C project for PF theory class', 'https://github.com/Ali-HF/PF'],
+  ['LeetCode-Submissions', 'solved problems and code (C++)', 'https://github.com/Ali-HF/LeetCode-Submissions'],
+  ['quick-ledger', 'minimal financial ledger [WIP]', 'https://github.com/Ali-HF/quick-ledger'],
+  ['Notebloom', 'stationery brand + storefront', ''],
+  ['hkh.agency', 'marketing agency', '']
+];
+
+const files = {
+  'about.txt': 'Ali Hasan. BCIT student at NED University, Karachi. Builds things in C++, JS and whatever ships.',
+  'secrets.txt': 'nothing here. go away. (try: sudo rm -rf /)',
+  'todo.txt': '[x] build terminal site\n[ ] sleep\n[ ] world domination'
+};
+
+function print(text, cls) {
+  const d = document.createElement('div');
+  d.className = 'line ' + (cls || '');
+  const p = document.createElement('pre');
+  p.textContent = text;
+  d.appendChild(p);
+  out.appendChild(d);
+  window.scrollTo(0, document.body.scrollHeight);
+}
+function printHTML(html) {
+  const d = document.createElement('div');
+  d.className = 'line';
+  d.innerHTML = html;
+  out.appendChild(d);
+  window.scrollTo(0, document.body.scrollHeight);
+}
+
+const commands = {
+  help() {
+    print(`commands:
+  help        this list
+  about       who dis
+  projects    things I built
+  skills      the loadout
+  neofetch    system info
+  contact     reach me
+  ls / cat <file>
+  whoami, date, banner, clear
+  theme <pink|green|amber>
+  matrix      toggle the rain
+  history     what you typed
+  ...and some you will have to find`);
+  },
+  about() { print(files['about.txt']); },
+  projects() {
+    projects.forEach(([n, d, url]) => {
+      if (url) {
+        printHTML(`> <a target="_blank" href="${url}">${n.padEnd(30)}</a> ${d}`);
+      } else {
+        print(`> ${n.padEnd(30)} ${d}`);
+      }
+    });
+  },
+  skills() {
+    print('C++    [████████░░]\nC      [███████░░░]\nJS/TS  [███████░░░]\nReact  [██████░░░░]\nNext   [██████░░░░]\nNode   [██████░░░░]\nFlutter[████░░░░░░]');
+  },
+  neofetch() {
+    const days = Math.floor((Date.now() - born) / 864e5);
+    print(`ali@karachi
+-----------
+OS      : Human 21.x
+Host    : NED University
+Shell   : bash (vibes)
+Uptime  : ${days} days of coding
+Stack   : C++ / JS / Flutter
+Mood    : caffeinated`);
+  },
+  contact() {
+    printHTML('mail: <a href="mailto:hf.alihasan0@gmail.com">hf.alihasan0@gmail.com</a><br>linkedin: <a target="_blank" href="https://www.linkedin.com/in/ali-hasan-897516384">ali-hasan-897516384</a><br>github: <a target="_blank" href="https://github.com/Ali-HF">Ali-HF</a>');
+  },
+  ls() { print(Object.keys(files).join('   ')); },
+  cat(arg) {
+    if (!arg) return print('cat: missing file');
+    if (files[arg]) return print(files[arg]);
+    print(`cat: ${arg}: no such file`);
+  },
+  whoami() { print('anon'); },
+  date() { print(new Date().toString()); },
+  banner() { print(BANNER, 'accent'); },
+  clear() { out.innerHTML = ''; },
+  history() { hist.forEach((h, i) => print(`${String(i + 1).padStart(3)}  ${h}`)); },
+  theme(arg) {
+    const t = { pink: ['#ff2a6d', '#05d9e8'], green: ['#39ff14', '#9dff8a'], amber: ['#ffb000', '#ffd45e'] }[arg];
+    if (!t) return print('usage: theme <pink|green|amber>');
+    document.documentElement.style.setProperty('--fg', t[1]);
+    document.documentElement.style.setProperty('--accent', t[0]);
+    print('theme set: ' + arg);
+  },
+  matrix() { document.body.classList.toggle('rain'); startRain(); print('wake up, anon...'); },
+  sudo(arg) {
+    if (arg && arg.startsWith('rm -rf')) {
+      print('deleting /...', 'accent');
+      let i = 0;
+      const t = setInterval(() => {
+        print('rm: removing ' + ['/bin', '/etc', '/home', '/var', '/dev/null', '/my/dignity'][i++]);
+        if (i > 5) { clearInterval(t); print('just kidding. nice try, anon.', 'accent'); }
+      }, 350);
+    } else print('ali is not in the sudoers file. this incident will be reported.');
+  },
+  vim() { print('you are now trapped. (just kidding, press refresh)'); },
+  exit() { print('there is no escape.'); },
+  love() { print('(｡･ω･｡)つ━☆・*。  thx anon'); }
+};
+
+const hist = [];
+let hi = 0;
+
+function run(line) {
+  print('ali@karachi:~$ ' + line, 'dim');
+  const [cmd, ...rest] = line.trim().split(/\s+/);
+  if (!cmd) return;
+  hist.push(line);
+  hi = hist.length;
+  if (commands[cmd]) commands[cmd](rest.join(' '));
+  else print(`${cmd}: command not found. type 'help'.`);
+}
+
+input.addEventListener('keydown', e => {
+  if (e.key === 'Enter') { run(input.value); input.value = ''; }
+  else if (e.key === 'ArrowUp') { if (hi > 0) input.value = hist[--hi]; e.preventDefault(); }
+  else if (e.key === 'ArrowDown') { input.value = hist[++hi] || ''; e.preventDefault(); }
+  else if (e.key === 'Tab') {
+    e.preventDefault();
+    const m = Object.keys(commands).filter(c => c.startsWith(input.value));
+    if (m.length === 1) input.value = m[0];
+  }
+});
+document.addEventListener('click', () => input.focus());
+
+// boot sequence
+const boot = ['BIOS v1.31  ........ OK', 'mounting /dev/coffee ...... OK', 'loading kernel 日本語.ko ... OK', 'starting terminal ......... OK'];
+let b = 0;
+(function step() {
+  if (b < boot.length) { print(boot[b++], 'dim'); setTimeout(step, 320); }
+  else { print(BANNER, 'accent'); print("welcome, anon. type 'help' to begin."); }
+})();
+
+// matrix rain
+let rainOn = false;
+function startRain() {
+  if (rainOn) return;
+  rainOn = true;
+  const c = document.getElementById('matrix');
+  const ctx = c.getContext('2d');
+  const chars = 'アイウエオカキクケコサシスセソ01{}<>/;';
+  let cols, drops;
+  function resize() { c.width = innerWidth; c.height = innerHeight; cols = Math.floor(c.width / 16); drops = Array(cols).fill(1); }
+  resize(); addEventListener('resize', resize);
+  setInterval(() => {
+    if (!document.body.classList.contains('rain')) return;
+    ctx.fillStyle = 'rgba(0,0,0,.08)'; ctx.fillRect(0, 0, c.width, c.height);
+    ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--accent') || '#ff2a6d';
+    ctx.font = '16px monospace';
+    drops.forEach((y, i) => {
+      ctx.fillText(chars[Math.floor(Math.random() * chars.length)], i * 16, y * 16);
+      drops[i] = y * 16 > c.height && Math.random() > .975 ? 0 : y + 1;
+    });
+  }, 50);
+}
+</script>
+</body>
+</html>

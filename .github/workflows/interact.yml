@@ -1,0 +1,45 @@
+name: Guestbook and game
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: profile-writes
+  cancel-in-progress: false
+
+jobs:
+  handle:
+    # label parameters from URLs are ignored for visitors, so we match on the title
+    if: startsWith(github.event.issue.title, 'guestbook') || startsWith(github.event.issue.title, 'ttt|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Process issue
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          GH_USER: ${{ github.repository_owner }}
+        run: python scripts/interact.py
+      - name: Commit
+        run: |
+          git config user.name "ali-hf-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "chore: update from issue #${{ github.event.issue.number }}"
+          git pull --rebase
+          git push
+      - name: Close issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue close ${{ github.event.issue.number }} --repo ${{ github.repository }} \
+            --comment "Done. Refresh the profile in a minute. thx anon."
