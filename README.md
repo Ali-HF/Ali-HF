@@ -6,13 +6,11 @@
 
 <!--START_SECTION:banner-->
 ```text
-  ___   _     _____      _   _ ______ 
- / _ \ | |   |_   _|    | | | ||  ___|
-/ /_\ \| |     | |______| |_| || |_   
-|  _  || |     | |______|  _  ||  _|  
-| | | || |_____| |_     | | | || |    
-\_| |_/\_____/\___/     \_| |_/\_|    
-                                      
+    ___    __    ____     __  ________
+   /   |  / /   /  _/    / / / / ____/
+  / /| | / /    / /_____/ /_/ / /_    
+ / ___ |/ /____/ /_____/ __  / __/    
+/_/  |_/_____/___/    /_/ /_/_/       
                                       
 ```
 <!--END_SECTION:banner-->
@@ -37,10 +35,10 @@ Class     : BCIT
 Guild     : hkh.agency
 Side quest: Notebloom
 Uptime    : 417 days on GitHub
-Repos     : 30
+Repos     : 31
 Stars     : 1
 Followers : 12
-Last push : 2h ago
+Last push : 23m ago
 Updated   : 2026-10-31
 ```
 <!--END_SECTION:neofetch-->
@@ -49,7 +47,7 @@ Updated   : 2026-10-31
 
 <!--START_SECTION:xp-->
 ```text
-LVL 10 [████░░░░░░░░░░░░░░░░] 1701 / 2000 XP
+LVL 10 [██████░░░░░░░░░░░░░░] 1741 / 2000 XP
 CLASS: HACKER
 ```
 <!--END_SECTION:xp-->
@@ -58,33 +56,15 @@ CLASS: HACKER
 
 ### `>be me`
 
-```text
->be me
->CS student in Karachi
->"just one more commit then sleep"
->it is 4am
->the bug was a missing semicolon
->mfw
-```
+<div align="center">
+  <img src="assets/beme.svg" width="100%" alt=">be me" />
+</div>
 
 ### `/dev/null/ - random` (dev confessionals)
 
-```text
-Anonymous 10/31/26(Sat)21:20:11 No.31415926
->ali pushed to main
->commit message: "fix"
->commit message: "fix2"
->commit message: "fix FINAL"
->commit message: "fix FINAL real"
-
-Anonymous 10/31/26(Sat)21:20:48 No.31415927
->>31415926
-it compiled once on his machine, that's all the QA we need
-
-Anonymous 10/31/26(Sat)21:21:30 No.31415928
->>31415927
-works on my machine is a valid deployment strategy
-```
+<div align="center">
+  <img src="assets/devnull.svg" width="100%" alt="/dev/null/ - random" />
+</div>
 
 <details>
 <summary><code>[ CLASSIFIED FILES - click if you dare ]</code></summary>
@@ -155,12 +135,12 @@ Spotify now playing (needs https://spotify-github-profile.kittinunf.com setup):
 <!--START_SECTION:repos-->
 | Repository | Tech Stack | Last Active |
 | :--- | :---: | :---: |
-| [**HackInsight**](https://github.com/Ali-HF/HackInsight) | `Python` | 2h ago |
+| [**Ali-HF.github.io**](https://github.com/Ali-HF/Ali-HF.github.io) | `HTML` | 23m ago |
+| [**HackInsight**](https://github.com/Ali-HF/HackInsight) | `Python` | 3h ago |
 | [**ned-3d-dsa-visualizer**](https://github.com/Ali-HF/ned-3d-dsa-visualizer) | `TypeScript` | 1d ago |
 | [**ned-portal-attendance-tracker**](https://github.com/Ali-HF/ned-portal-attendance-tracker) | `JavaScript` | 10d ago |
 | [**ned-prospectus-rag**](https://github.com/Ali-HF/ned-prospectus-rag) | `Python` | 17d ago |
 | [**github-pages-demo**](https://github.com/Ali-HF/github-pages-demo) | `CSS` | 17d ago |
-| [**fart-simulator**](https://github.com/Ali-HF/fart-simulator) | `TypeScript` | 21d ago |
 <!--END_SECTION:repos-->
 
 ### `/quests/` - active & completed builds

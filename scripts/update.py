@@ -39,11 +39,11 @@ def make_banner(today):
         import pyfiglet
     except ImportError:
         return None
-    fonts = ["ansi_shadow", "slant", "big", "doom", "standard", "banner3", "small"]
+    fonts = ["ansi_shadow", "slant", "bloody"]
     start = today.timetuple().tm_yday % len(fonts)
     for i in range(len(fonts)):
         try:
-            art = pyfiglet.figlet_format("ALI-HF", font=fonts[(start + i) % len(fonts)], width=60)
+            art = pyfiglet.figlet_format("ALI-HF", font=fonts[(start + i) % len(fonts)], width=80)
             return code(art)
         except Exception:
             continue
