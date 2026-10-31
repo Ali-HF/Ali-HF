@@ -38,7 +38,7 @@ Uptime    : 417 days on GitHub
 Repos     : 31
 Stars     : 1
 Followers : 12
-Last push : 23m ago
+Last push : 24m ago
 Updated   : 2026-10-31
 ```
 <!--END_SECTION:neofetch-->
@@ -135,7 +135,7 @@ Spotify now playing (needs https://spotify-github-profile.kittinunf.com setup):
 <!--START_SECTION:repos-->
 | Repository | Tech Stack | Last Active |
 | :--- | :---: | :---: |
-| [**Ali-HF.github.io**](https://github.com/Ali-HF/Ali-HF.github.io) | `HTML` | 23m ago |
+| [**Ali-HF.github.io**](https://github.com/Ali-HF/Ali-HF.github.io) | `HTML` | 24m ago |
 | [**HackInsight**](https://github.com/Ali-HF/HackInsight) | `Python` | 3h ago |
 | [**ned-3d-dsa-visualizer**](https://github.com/Ali-HF/ned-3d-dsa-visualizer) | `TypeScript` | 1d ago |
 | [**ned-portal-attendance-tracker**](https://github.com/Ali-HF/ned-portal-attendance-tracker) | `JavaScript` | 10d ago |
