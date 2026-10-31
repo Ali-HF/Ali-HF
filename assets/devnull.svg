@@ -1,18 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 370" width="100%" height="370">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 370" width="100%" height="370" shape-rendering="crispEdges">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;family=VT323&amp;display=swap');
-      .terminal-bg { fill: #0d0221; rx: 6px; stroke: #05d9e8; stroke-width: 2px; }
-      .header-bar { fill: #101c3d; }
-      .window-btn-red { fill: #ff2a6d; }
-      .window-btn-yellow { fill: #f9c80e; }
-      .window-btn-cyan { fill: #05d9e8; }
-      .window-title { font-family: 'Press Start 2P', 'Courier New', monospace; font-size: 10px; fill: #ff2a6d; letter-spacing: 1px; }
-      .scanline {
-        fill: none;
-        stroke: rgba(255, 42, 109, 0.06);
-        stroke-width: 1px;
-      }
+      .terminal-bg { fill: #0a0d0a; stroke: #263326; stroke-width: 2px; }
+      .header-bar { fill: #141a14; }
+      .hud-pip { fill: #00ff66; }
+      .hud-pip-dim { fill: #384538; }
+      .window-title { font-family: 'Press Start 2P', 'Courier New', monospace; font-size: 10px; fill: #00ff66; letter-spacing: 1px; }
       .pixel-text {
         font-family: 'Press Start 2P', 'VT323', 'Courier New', monospace;
         font-size: 10px;
@@ -21,7 +14,7 @@
       .cursor {
         font-family: 'Press Start 2P', monospace;
         font-size: 10px;
-        fill: #72f1b8;
+        fill: #00ff66;
         animation: blink 0.8s infinite;
       }
       @keyframes blink {
@@ -83,137 +76,53 @@
     </style>
   </defs>
 
-  <!-- Window Frame -->
+  <!-- Frame -->
   <rect x="2" y="2" width="776" height="366" class="terminal-bg"/>
-  <rect x="2" y="2" width="776" height="28" class="header-bar" rx="6"/>
-  <rect x="2" y="24" width="776" height="6" class="header-bar"/>
+  <rect x="2" y="2" width="776" height="28" class="header-bar"/>
+  <rect x="2" y="30" width="776" height="1" fill="#00ff66"/>
 
-  <!-- Window Buttons -->
-  <circle cx="20" cy="16" r="5" class="window-btn-red"/>
-  <circle cx="36" cy="16" r="5" class="window-btn-yellow"/>
-  <circle cx="52" cy="16" r="5" class="window-btn-cyan"/>
+  <!-- Pips -->
+  <rect x="16" y="10" width="8" height="8" class="hud-pip"/>
+  <rect x="28" y="10" width="8" height="8" class="hud-pip-dim"/>
+  <rect x="40" y="10" width="8" height="8" class="hud-pip-dim"/>
 
-  <!-- Window Title -->
-  <text x="390" y="19" text-anchor="middle" class="window-title">BBS://dev.null/thread/31415926</text>
-
-  <!-- CRT Scanlines -->
-  <line x1="8" y1="35" x2="772" y2="35" class="scanline"/>
-  <line x1="8" y1="39" x2="772" y2="39" class="scanline"/>
-  <line x1="8" y1="43" x2="772" y2="43" class="scanline"/>
-  <line x1="8" y1="47" x2="772" y2="47" class="scanline"/>
-  <line x1="8" y1="51" x2="772" y2="51" class="scanline"/>
-  <line x1="8" y1="55" x2="772" y2="55" class="scanline"/>
-  <line x1="8" y1="59" x2="772" y2="59" class="scanline"/>
-  <line x1="8" y1="63" x2="772" y2="63" class="scanline"/>
-  <line x1="8" y1="67" x2="772" y2="67" class="scanline"/>
-  <line x1="8" y1="71" x2="772" y2="71" class="scanline"/>
-  <line x1="8" y1="75" x2="772" y2="75" class="scanline"/>
-  <line x1="8" y1="79" x2="772" y2="79" class="scanline"/>
-  <line x1="8" y1="83" x2="772" y2="83" class="scanline"/>
-  <line x1="8" y1="87" x2="772" y2="87" class="scanline"/>
-  <line x1="8" y1="91" x2="772" y2="91" class="scanline"/>
-  <line x1="8" y1="95" x2="772" y2="95" class="scanline"/>
-  <line x1="8" y1="99" x2="772" y2="99" class="scanline"/>
-  <line x1="8" y1="103" x2="772" y2="103" class="scanline"/>
-  <line x1="8" y1="107" x2="772" y2="107" class="scanline"/>
-  <line x1="8" y1="111" x2="772" y2="111" class="scanline"/>
-  <line x1="8" y1="115" x2="772" y2="115" class="scanline"/>
-  <line x1="8" y1="119" x2="772" y2="119" class="scanline"/>
-  <line x1="8" y1="123" x2="772" y2="123" class="scanline"/>
-  <line x1="8" y1="127" x2="772" y2="127" class="scanline"/>
-  <line x1="8" y1="131" x2="772" y2="131" class="scanline"/>
-  <line x1="8" y1="135" x2="772" y2="135" class="scanline"/>
-  <line x1="8" y1="139" x2="772" y2="139" class="scanline"/>
-  <line x1="8" y1="143" x2="772" y2="143" class="scanline"/>
-  <line x1="8" y1="147" x2="772" y2="147" class="scanline"/>
-  <line x1="8" y1="151" x2="772" y2="151" class="scanline"/>
-  <line x1="8" y1="155" x2="772" y2="155" class="scanline"/>
-  <line x1="8" y1="159" x2="772" y2="159" class="scanline"/>
-  <line x1="8" y1="163" x2="772" y2="163" class="scanline"/>
-  <line x1="8" y1="167" x2="772" y2="167" class="scanline"/>
-  <line x1="8" y1="171" x2="772" y2="171" class="scanline"/>
-  <line x1="8" y1="175" x2="772" y2="175" class="scanline"/>
-  <line x1="8" y1="179" x2="772" y2="179" class="scanline"/>
-  <line x1="8" y1="183" x2="772" y2="183" class="scanline"/>
-  <line x1="8" y1="187" x2="772" y2="187" class="scanline"/>
-  <line x1="8" y1="191" x2="772" y2="191" class="scanline"/>
-  <line x1="8" y1="195" x2="772" y2="195" class="scanline"/>
-  <line x1="8" y1="199" x2="772" y2="199" class="scanline"/>
-  <line x1="8" y1="203" x2="772" y2="203" class="scanline"/>
-  <line x1="8" y1="207" x2="772" y2="207" class="scanline"/>
-  <line x1="8" y1="211" x2="772" y2="211" class="scanline"/>
-  <line x1="8" y1="215" x2="772" y2="215" class="scanline"/>
-  <line x1="8" y1="219" x2="772" y2="219" class="scanline"/>
-  <line x1="8" y1="223" x2="772" y2="223" class="scanline"/>
-  <line x1="8" y1="227" x2="772" y2="227" class="scanline"/>
-  <line x1="8" y1="231" x2="772" y2="231" class="scanline"/>
-  <line x1="8" y1="235" x2="772" y2="235" class="scanline"/>
-  <line x1="8" y1="239" x2="772" y2="239" class="scanline"/>
-  <line x1="8" y1="243" x2="772" y2="243" class="scanline"/>
-  <line x1="8" y1="247" x2="772" y2="247" class="scanline"/>
-  <line x1="8" y1="251" x2="772" y2="251" class="scanline"/>
-  <line x1="8" y1="255" x2="772" y2="255" class="scanline"/>
-  <line x1="8" y1="259" x2="772" y2="259" class="scanline"/>
-  <line x1="8" y1="263" x2="772" y2="263" class="scanline"/>
-  <line x1="8" y1="267" x2="772" y2="267" class="scanline"/>
-  <line x1="8" y1="271" x2="772" y2="271" class="scanline"/>
-  <line x1="8" y1="275" x2="772" y2="275" class="scanline"/>
-  <line x1="8" y1="279" x2="772" y2="279" class="scanline"/>
-  <line x1="8" y1="283" x2="772" y2="283" class="scanline"/>
-  <line x1="8" y1="287" x2="772" y2="287" class="scanline"/>
-  <line x1="8" y1="291" x2="772" y2="291" class="scanline"/>
-  <line x1="8" y1="295" x2="772" y2="295" class="scanline"/>
-  <line x1="8" y1="299" x2="772" y2="299" class="scanline"/>
-  <line x1="8" y1="303" x2="772" y2="303" class="scanline"/>
-  <line x1="8" y1="307" x2="772" y2="307" class="scanline"/>
-  <line x1="8" y1="311" x2="772" y2="311" class="scanline"/>
-  <line x1="8" y1="315" x2="772" y2="315" class="scanline"/>
-  <line x1="8" y1="319" x2="772" y2="319" class="scanline"/>
-  <line x1="8" y1="323" x2="772" y2="323" class="scanline"/>
-  <line x1="8" y1="327" x2="772" y2="327" class="scanline"/>
-  <line x1="8" y1="331" x2="772" y2="331" class="scanline"/>
-  <line x1="8" y1="335" x2="772" y2="335" class="scanline"/>
-  <line x1="8" y1="339" x2="772" y2="339" class="scanline"/>
-  <line x1="8" y1="343" x2="772" y2="343" class="scanline"/>
-  <line x1="8" y1="347" x2="772" y2="347" class="scanline"/>
-  <line x1="8" y1="351" x2="772" y2="351" class="scanline"/>
-  <line x1="8" y1="355" x2="772" y2="355" class="scanline"/>
-  <line x1="8" y1="359" x2="772" y2="359" class="scanline"/>
+  <!-- Title -->
+  <text x="390" y="19" text-anchor="middle" class="window-title">BBS://MECHA-NET/SECTOR-KARACHI/31415926</text>
   <g class="item-0">
-    <text x="24" y="58" fill="#05d9e8" class="pixel-text">Anonymous 10/31/26(Sat)21:20:11 No.31415926</text>
+    <text x="24" y="58" fill="#829482" class="pixel-text">Anonymous 10/31/26(Sat)21:20:11 No.31415926</text>
   </g>
   <g class="item-1">
-    <text x="36" y="78" fill="#72f1b8" class="pixel-text">>ali pushed to main</text>
+    <text x="36" y="78" fill="#00ff66" class="pixel-text">>ali pushed to main</text>
   </g>
   <g class="item-2">
-    <text x="36" y="98" fill="#72f1b8" class="pixel-text">>commit message: "fix"</text>
+    <text x="36" y="98" fill="#00ff66" class="pixel-text">>commit message: "fix"</text>
   </g>
   <g class="item-3">
-    <text x="36" y="118" fill="#72f1b8" class="pixel-text">>commit message: "fix2"</text>
+    <text x="36" y="118" fill="#00ff66" class="pixel-text">>commit message: "fix2"</text>
   </g>
   <g class="item-4">
-    <text x="36" y="138" fill="#72f1b8" class="pixel-text">>commit message: "fix FINAL"</text>
+    <text x="36" y="138" fill="#00ff66" class="pixel-text">>commit message: "fix FINAL"</text>
   </g>
   <g class="item-5">
-    <text x="36" y="158" fill="#72f1b8" class="pixel-text">>commit message: "fix FINAL real"</text>
+    <text x="36" y="158" fill="#00ff66" class="pixel-text">>commit message: "fix FINAL real"</text>
   </g>
   <g class="item-6">
-    <text x="24" y="186" fill="#ff2a6d" class="pixel-text">Anonymous 10/31/26(Sat)21:20:48 No.31415927</text>
+    <text x="24" y="186" fill="#829482" class="pixel-text">Anonymous 10/31/26(Sat)21:20:48 No.31415927</text>
   </g>
   <g class="item-7">
-    <text x="36" y="206" fill="#f9c80e" class="pixel-text">>>31415926</text>
+    <text x="36" y="206" fill="#00ff66" class="pixel-text">>>31415926</text>
   </g>
   <g class="item-8">
-    <text x="36" y="226" fill="#ffffff" class="pixel-text">it compiled once on his machine, that's all the QA we need</text>
+    <text x="36" y="226" fill="#b8c9b8" class="pixel-text">it compiled once on his machine, that's all the QA we need</text>
   </g>
   <g class="item-9">
-    <text x="24" y="254" fill="#05d9e8" class="pixel-text">Anonymous 10/31/26(Sat)21:21:30 No.31415928</text>
+    <text x="24" y="254" fill="#829482" class="pixel-text">Anonymous 10/31/26(Sat)21:21:30 No.31415928</text>
   </g>
   <g class="item-10">
-    <text x="36" y="274" fill="#f9c80e" class="pixel-text">>>31415927</text>
+    <text x="36" y="274" fill="#00ff66" class="pixel-text">>>31415927</text>
   </g>
   <g class="item-11">
-    <text x="36" y="294" fill="#ffffff" class="pixel-text">works on my machine is a valid deployment strategy</text>
+    <text x="36" y="294" fill="#b8c9b8" class="pixel-text">works on my machine is a valid deployment strategy</text>
   </g>
   <text x="590" y="294" class="cursor">█</text>
 </svg>

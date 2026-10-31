@@ -96,7 +96,7 @@ def handle_ttt(title, author):
 
 def render_ttt():
     s = load(TT, None) or new_state()
-    sym = {"X": "❌", "O": "⭕"}
+    sym = {"X": "🟢", "O": "⚫"}
     base = f"https://github.com/{REPO}/issues/new?labels=ttt&body=Just+press+Submit+new+issue.+The+bot+does+the+rest.&title="
     rows = ["| &nbsp; | &nbsp; | &nbsp; |", "|:-:|:-:|:-:|"]
     for r in range(3):
@@ -107,19 +107,19 @@ def render_ttt():
             if v:
                 cells.append(sym[v])
             elif s["status"] == "playing":
-                cells.append(f"[⬜]({base}ttt%7Cmove%7C{i})")
+                cells.append(f"[🔲]({base}ttt%7Cmove%7C{i})")
             else:
                 cells.append("⬛")
         rows.append("| " + " | ".join(cells) + " |")
     msg = {
-        "playing": "your move (you are ❌)",
-        "x": "❌ wins! click any square to start a new game",
-        "o": "⭕ the bot wins. click any square for a rematch",
+        "playing": "your move (you are 🟢)",
+        "x": "🟢 wins! click any square to start a new game",
+        "o": "⚫ the bot wins. click any square for a rematch",
         "draw": "draw. click any square to go again",
     }[s["status"]]
     w = s["wins"]
     last = f" last move by @{s['last']}" if s["last"] else ""
-    foot = f"**{msg}**{last}<br>score: you ❌ {w['x']} | bot ⭕ {w['o']} | draws {w['draw']} · [reset board]({base}ttt%7Cnew%7C0)"
+    foot = f"**{msg}**{last}<br>score: you 🟢 {w['x']} | bot ⚫ {w['o']} | draws {w['draw']} · [reset board]({base}ttt%7Cnew%7C0)"
     return "\n".join(rows) + "\n\n" + foot
 
 
