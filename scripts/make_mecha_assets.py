@@ -350,3 +350,4 @@ if __name__ == "__main__":
     with open("assets/devnull.svg", "w", encoding="utf-8") as f:
         f.write(generate_devnull_mecha())
     print("Generated all Japanese Cyber Mecha pixel assets in green/grey/black!")
+

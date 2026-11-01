@@ -1,24 +1,28 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="機動戦士 // CYBER MECHA"/>
+<img src="assets/header.svg" width="100%" alt="サイバーネコ // CYBER CAT"/>
 
-<img src="assets/avatar.svg" width="200" alt="Japanese Cyber Mecha Unit 01"/>
+<img src="assets/avatar.svg" width="200" alt="Japanese Cyber Cat Unit 01"/>
 
 <!--START_SECTION:banner-->
 ```text
-    ___    __    ____     __  ________
-   /   |  / /   /  _/    / / / / ____/
-  / /| | / /    / /_____/ /_/ / /_    
- / ___ |/ /____/ /_____/ __  / __/    
-/_/  |_/_____/___/    /_/ /_/_/       
+ ▄▄▄       ██▓     ██▓ ██░ ██   █████▒
+▒████▄    ▓██▒    ▓██▒▓██░ ██▒▓██   ▒ 
+▒██  ▀█▄  ▒██░    ▒██▒▒██▀▀██░▒████ ░ 
+░██▄▄▄▄██ ▒██░    ░██░░▓█ ░██ ░▓█▒  ░ 
+ ▓█   ▓██▒░██████▒░██░░▓█▒░██▓░▒█░    
+ ▒▒   ▓▒█░░ ▒░▓  ░░▓   ▒ ░░▒░▒ ▒ ░    
+  ▒   ▒▒ ░░ ░ ▒  ░ ▒ ░ ▒ ░▒░ ░ ░      
+  ░   ▒     ░ ░    ▒ ░ ░  ░░ ░ ░ ░    
+      ░  ░    ░  ░ ░   ░  ░  ░        
                                       
 ```
 <!--END_SECTION:banner-->
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=3000&pause=800&color=00FF66&center=true&vCenter=true&width=700&lines=%3E+booting+ali-hf.exe...;%3E+loading+C%2B%2B+%7C+DSA+%7C+web...;%3E+status%3A+touching+no+grass;%3E+%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A7%E4%B8%96%E7%95%8C%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B" alt="typing"/></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=14&duration=3000&pause=800&color=7EE787&center=true&vCenter=true&width=700&lines=%3E+booting+ali-hf.exe...;%3E+loading+C%2B%2B+%7C+DSA+%7C+web...;%3E+status%3A+touching+no+grass;%3E+%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A7%E4%B8%96%E7%95%8C%E3%82%92%E5%A4%89%E3%81%88%E3%82%8B" alt="typing"/></a>
 
-![visitors](https://komarev.com/ghpvc/?username=Ali-HF&color=00ff66&style=for-the-badge&labelColor=141a14&label=VISITORS)
-![followers](https://img.shields.io/github/followers/Ali-HF?style=for-the-badge&color=829482&labelColor=141a14)
+![visitors](https://komarev.com/ghpvc/?username=Ali-HF&color=7ee787&style=for-the-badge&labelColor=161b22&label=VISITORS)
+![followers](https://img.shields.io/github/followers/Ali-HF?style=for-the-badge&color=8b949e&labelColor=161b22)
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -34,12 +38,12 @@ Host      : NED University, Karachi
 Class     : BCIT
 Guild     : hkh.agency
 Side quest: Notebloom
-Uptime    : 417 days on GitHub
+Uptime    : 418 days on GitHub
 Repos     : 31
 Stars     : 1
 Followers : 12
-Last push : 32m ago)
-Updated   : 2026-10-31
+Last push : 1m ago
+Updated   : 2026-11-01
 ```
 <!--END_SECTION:neofetch-->
 
@@ -86,15 +90,15 @@ secret #3 : try the terminal site, type `sudo rm -rf /`
 
 <div align="center">
 
-![C++](https://img.shields.io/badge/C++-00ff66?style=flat-square&logo=cplusplus&logoColor=black&labelColor=141a14)
-![C](https://img.shields.io/badge/C-829482?style=flat-square&logo=c&logoColor=white&labelColor=141a14)
-![JavaScript](https://img.shields.io/badge/JavaScript-00ff66?style=flat-square&logo=javascript&logoColor=black&labelColor=141a14)
-![React](https://img.shields.io/badge/React-829482?style=flat-square&logo=react&logoColor=white&labelColor=141a14)
-![Next.js](https://img.shields.io/badge/Next.js-00ff66?style=flat-square&logo=nextdotjs&logoColor=black&labelColor=141a14)
-![Node](https://img.shields.io/badge/Node.js-829482?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=141a14)
-![MongoDB](https://img.shields.io/badge/MongoDB-00ff66?style=flat-square&logo=mongodb&logoColor=black&labelColor=141a14)
-![Flutter](https://img.shields.io/badge/Flutter-829482?style=flat-square&logo=flutter&logoColor=white&labelColor=141a14)
-![Git](https://img.shields.io/badge/Git-00ff66?style=flat-square&logo=git&logoColor=black&labelColor=141a14)
+![C++](https://img.shields.io/badge/C++-7ee787?style=flat-square&logo=cplusplus&logoColor=black&labelColor=161b22)
+![C](https://img.shields.io/badge/C-8b949e?style=flat-square&logo=c&logoColor=white&labelColor=161b22)
+![JavaScript](https://img.shields.io/badge/JavaScript-7ee787?style=flat-square&logo=javascript&logoColor=black&labelColor=161b22)
+![React](https://img.shields.io/badge/React-8b949e?style=flat-square&logo=react&logoColor=white&labelColor=161b22)
+![Next.js](https://img.shields.io/badge/Next.js-7ee787?style=flat-square&logo=nextdotjs&logoColor=black&labelColor=161b22)
+![Node](https://img.shields.io/badge/Node.js-8b949e?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=161b22)
+![MongoDB](https://img.shields.io/badge/MongoDB-7ee787?style=flat-square&logo=mongodb&logoColor=black&labelColor=161b22)
+![Flutter](https://img.shields.io/badge/Flutter-8b949e?style=flat-square&logo=flutter&logoColor=white&labelColor=161b22)
+![Git](https://img.shields.io/badge/Git-7ee787?style=flat-square&logo=git&logoColor=black&labelColor=161b22)
 
 </div>
 
@@ -102,10 +106,10 @@ secret #3 : try the terminal site, type `sudo rm -rf /`
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Ali-HF&show_icons=true&hide_border=false&border_color=263326&bg_color=0a0d0a&title_color=00ff66&icon_color=00ff66&text_color=b8c9b8" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ali-HF&layout=compact&hide_border=false&border_color=263326&bg_color=0a0d0a&title_color=00ff66&text_color=b8c9b8" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Ali-HF&show_icons=true&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=7ee787&icon_color=7ee787&text_color=c9d1d9" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ali-HF&layout=compact&hide_border=false&border_color=30363d&bg_color=0d1117&title_color=7ee787&text_color=c9d1d9" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ali-HF&hide_border=false&border=263326&background=0a0d0a&ring=00ff66&fire=00ff66&currStreakLabel=00ff66&sideLabels=829482&currStreakNum=00ff66&sideNums=b8c9b8&dates=587058" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ali-HF&hide_border=false&border=30363d&background=0d1117&ring=7ee787&fire=7ee787&currStreakLabel=7ee787&sideLabels=8b949e&currStreakNum=7ee787&sideNums=c9d1d9&dates=484f58" />
 
 </div>
 
@@ -135,12 +139,12 @@ Spotify now playing (needs https://spotify-github-profile.kittinunf.com setup):
 <!--START_SECTION:repos-->
 | Repository | Tech Stack | Last Active |
 | :--- | :---: | :---: |
-| [**Ali-HF.github.io**](https://github.com/Ali-HF/Ali-HF.github.io) | `HTML` | 32m ago |)
-| [**HackInsight**](https://github.com/Ali-HF/HackInsight) | `Python` | 3h ago |
-| [**ned-3d-dsa-visualizer**](https://github.com/Ali-HF/ned-3d-dsa-visualizer) | `TypeScript` | 1d ago |
-| [**ned-portal-attendance-tracker**](https://github.com/Ali-HF/ned-portal-attendance-tracker) | `JavaScript` | 10d ago |
+| [**Ali-HF.github.io**](https://github.com/Ali-HF/Ali-HF.github.io) | `HTML` | 1m ago |
+| [**HackInsight**](https://github.com/Ali-HF/HackInsight) | `Python` | 26m ago |
+| [**ned-3d-dsa-visualizer**](https://github.com/Ali-HF/ned-3d-dsa-visualizer) | `TypeScript` | 2d ago |
+| [**ned-portal-attendance-tracker**](https://github.com/Ali-HF/ned-portal-attendance-tracker) | `JavaScript` | 11d ago |
 | [**ned-prospectus-rag**](https://github.com/Ali-HF/ned-prospectus-rag) | `Python` | 17d ago |
-| [**github-pages-demo**](https://github.com/Ali-HF/github-pages-demo) | `CSS` | 17d ago |
+| [**github-pages-demo**](https://github.com/Ali-HF/github-pages-demo) | `CSS` | 18d ago |
 <!--END_SECTION:repos-->
 
 ### `/quests/` - active & completed builds
@@ -170,7 +174,7 @@ Click a square. It opens a pre-filled issue, just press **Submit new issue**. A 
 | [🔲](https://github.com/Ali-HF/Ali-HF/issues/new?labels=ttt&body=Just+press+Submit+new+issue.+The+bot+does+the+rest.&title=ttt%7Cmove%7C3) | [🔲](https://github.com/Ali-HF/Ali-HF/issues/new?labels=ttt&body=Just+press+Submit+new+issue.+The+bot+does+the+rest.&title=ttt%7Cmove%7C4) | [🔲](https://github.com/Ali-HF/Ali-HF/issues/new?labels=ttt&body=Just+press+Submit+new+issue.+The+bot+does+the+rest.&title=ttt%7Cmove%7C5) |
 | [🔲](https://github.com/Ali-HF/Ali-HF/issues/new?labels=ttt&body=Just+press+Submit+new+issue.+The+bot+does+the+rest.&title=ttt%7Cmove%7C6) | [🔲](https://github.com/Ali-HF/Ali-HF/issues/new?labels=ttt&body=Just+press+Submit+new+issue.+The+bot+does+the+rest.&title=ttt%7Cmove%7C7) | [🔲](https://github.com/Ali-HF/Ali-HF/issues/new?labels=ttt&body=Just+press+Submit+new+issue.+The+bot+does+the+rest.&title=ttt%7Cmove%7C8) |
 
-**your move (you are 🟢)**<br>score: you 🟢 0 | bot ⚫ 0 | draws 0 · [reset board](https://github.com/Ali-HF/Ali-HF/issues/new?labels=ttt&body=Just+press+Submit+new+issue.+The+bot+does+the+rest.&title=ttt%7Cnew%7C0)
+**your move (you are 🐾)**<br>score: you 🐾 0 | bot ⚫ 0 | draws 0 · [reset board](https://github.com/Ali-HF/Ali-HF/issues/new?labels=ttt&body=Just+press+Submit+new+issue.+The+bot+does+the+rest.&title=ttt%7Cnew%7C0)
 <!--END_SECTION:ttt-->
 
 ### `/wall/` - leave graffiti on the guestbook
@@ -207,9 +211,9 @@ The wall is empty. Be the first anon.
 
 <div align="center">
 
-[![Terminal Site](https://img.shields.io/badge/TERMINAL_SITE-00ff66?style=for-the-badge&logo=gnometerminal&logoColor=black&labelColor=141a14)](https://ali-hf.github.io)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-829482?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=141a14)](https://www.linkedin.com/in/ali-hasan-897516384)
-[![Mail](https://img.shields.io/badge/MAIL-00ff66?style=for-the-badge&logo=gmail&logoColor=black&labelColor=141a14)](mailto:hf.alihasan0@gmail.com)
+[![Terminal Site](https://img.shields.io/badge/TERMINAL_SITE-7ee787?style=for-the-badge&logo=gnometerminal&logoColor=black&labelColor=161b22)](https://ali-hf.github.io)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-8b949e?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=161b22)](https://www.linkedin.com/in/ali-hasan-897516384)
+[![Mail](https://img.shields.io/badge/MAIL-7ee787?style=for-the-badge&logo=gmail&logoColor=black&labelColor=161b22)](mailto:hf.alihasan0@gmail.com)
 
 ```text
   ∧＿∧

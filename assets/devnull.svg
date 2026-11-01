@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 370" width="100%" height="370" shape-rendering="crispEdges">
   <defs>
     <style>
-      .terminal-bg { fill: #0a0d0a; stroke: #263326; stroke-width: 2px; }
-      .header-bar { fill: #141a14; }
-      .hud-pip { fill: #00ff66; }
-      .hud-pip-dim { fill: #384538; }
-      .window-title { font-family: 'Press Start 2P', 'Courier New', monospace; font-size: 10px; fill: #00ff66; letter-spacing: 1px; }
+      .terminal-bg { fill: #0d1117; stroke: #30363d; stroke-width: 2px; }
+      .header-bar { fill: #161b22; }
+      .hud-pip { fill: #7ee787; }
+      .hud-pip-dim { fill: #30363d; }
+      .window-title { font-family: 'Press Start 2P', 'Courier New', monospace; font-size: 10px; fill: #7ee787; letter-spacing: 1px; }
       .pixel-text {
         font-family: 'Press Start 2P', 'VT323', 'Courier New', monospace;
         font-size: 10px;
@@ -14,7 +14,7 @@
       .cursor {
         font-family: 'Press Start 2P', monospace;
         font-size: 10px;
-        fill: #00ff66;
+        fill: #7ee787;
         animation: blink 0.8s infinite;
       }
       @keyframes blink {
@@ -79,7 +79,7 @@
   <!-- Frame -->
   <rect x="2" y="2" width="776" height="366" class="terminal-bg"/>
   <rect x="2" y="2" width="776" height="28" class="header-bar"/>
-  <rect x="2" y="30" width="776" height="1" fill="#00ff66"/>
+  <rect x="2" y="30" width="776" height="1" fill="#7ee787"/>
 
   <!-- Pips -->
   <rect x="16" y="10" width="8" height="8" class="hud-pip"/>
@@ -87,42 +87,42 @@
   <rect x="40" y="10" width="8" height="8" class="hud-pip-dim"/>
 
   <!-- Title -->
-  <text x="390" y="19" text-anchor="middle" class="window-title">BBS://MECHA-NET/SECTOR-KARACHI/31415926</text>
+  <text x="390" y="19" text-anchor="middle" class="window-title">BBS://NEKO-NET/SECTOR-KARACHI/31415926</text>
   <g class="item-0">
-    <text x="24" y="58" fill="#829482" class="pixel-text">Anonymous 10/31/26(Sat)21:20:11 No.31415926</text>
+    <text x="24" y="58" fill="#8b949e" class="pixel-text">Anonymous 10/31/26(Sat)21:20:11 No.31415926</text>
   </g>
   <g class="item-1">
-    <text x="36" y="78" fill="#00ff66" class="pixel-text">>ali pushed to main</text>
+    <text x="36" y="78" fill="#7ee787" class="pixel-text">>ali pushed to main</text>
   </g>
   <g class="item-2">
-    <text x="36" y="98" fill="#00ff66" class="pixel-text">>commit message: "fix"</text>
+    <text x="36" y="98" fill="#7ee787" class="pixel-text">>commit message: "fix"</text>
   </g>
   <g class="item-3">
-    <text x="36" y="118" fill="#00ff66" class="pixel-text">>commit message: "fix2"</text>
+    <text x="36" y="118" fill="#7ee787" class="pixel-text">>commit message: "fix2"</text>
   </g>
   <g class="item-4">
-    <text x="36" y="138" fill="#00ff66" class="pixel-text">>commit message: "fix FINAL"</text>
+    <text x="36" y="138" fill="#7ee787" class="pixel-text">>commit message: "fix FINAL"</text>
   </g>
   <g class="item-5">
-    <text x="36" y="158" fill="#00ff66" class="pixel-text">>commit message: "fix FINAL real"</text>
+    <text x="36" y="158" fill="#7ee787" class="pixel-text">>commit message: "fix FINAL real"</text>
   </g>
   <g class="item-6">
-    <text x="24" y="186" fill="#829482" class="pixel-text">Anonymous 10/31/26(Sat)21:20:48 No.31415927</text>
+    <text x="24" y="186" fill="#8b949e" class="pixel-text">Anonymous 10/31/26(Sat)21:20:48 No.31415927</text>
   </g>
   <g class="item-7">
-    <text x="36" y="206" fill="#00ff66" class="pixel-text">>>31415926</text>
+    <text x="36" y="206" fill="#7ee787" class="pixel-text">>>31415926</text>
   </g>
   <g class="item-8">
-    <text x="36" y="226" fill="#b8c9b8" class="pixel-text">it compiled once on his machine, that's all the QA we need</text>
+    <text x="36" y="226" fill="#c9d1d9" class="pixel-text">it compiled once on his machine, that's all the QA we need</text>
   </g>
   <g class="item-9">
-    <text x="24" y="254" fill="#829482" class="pixel-text">Anonymous 10/31/26(Sat)21:21:30 No.31415928</text>
+    <text x="24" y="254" fill="#8b949e" class="pixel-text">Anonymous 10/31/26(Sat)21:21:30 No.31415928</text>
   </g>
   <g class="item-10">
-    <text x="36" y="274" fill="#00ff66" class="pixel-text">>>31415927</text>
+    <text x="36" y="274" fill="#7ee787" class="pixel-text">>>31415927</text>
   </g>
   <g class="item-11">
-    <text x="36" y="294" fill="#b8c9b8" class="pixel-text">works on my machine is a valid deployment strategy</text>
+    <text x="36" y="294" fill="#c9d1d9" class="pixel-text">works on my machine is a valid deployment strategy</text>
   </g>
   <text x="590" y="294" class="cursor">█</text>
 </svg>

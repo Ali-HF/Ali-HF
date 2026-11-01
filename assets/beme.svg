@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 230" width="100%" height="230" shape-rendering="crispEdges">
   <defs>
     <style>
-      .terminal-bg { fill: #0a0d0a; stroke: #263326; stroke-width: 2px; }
-      .header-bar { fill: #141a14; }
-      .hud-pip { fill: #00ff66; }
-      .hud-pip-dim { fill: #384538; }
-      .window-title { font-family: 'Press Start 2P', 'Courier New', monospace; font-size: 10px; fill: #00ff66; letter-spacing: 1px; }
+      .terminal-bg { fill: #0d1117; stroke: #30363d; stroke-width: 2px; }
+      .header-bar { fill: #161b22; }
+      .hud-pip { fill: #7ee787; }
+      .hud-pip-dim { fill: #30363d; }
+      .window-title { font-family: 'Press Start 2P', 'Courier New', monospace; font-size: 10px; fill: #7ee787; letter-spacing: 1px; }
       .pixel-text {
         font-family: 'Press Start 2P', 'VT323', 'Courier New', monospace;
         font-size: 11px;
@@ -14,7 +14,7 @@
       .cursor {
         font-family: 'Press Start 2P', monospace;
         font-size: 11px;
-        fill: #00ff66;
+        fill: #7ee787;
         animation: blink 0.8s infinite;
       }
       @keyframes blink {
@@ -55,7 +55,7 @@
   <!-- Frame -->
   <rect x="2" y="2" width="776" height="226" class="terminal-bg"/>
   <rect x="2" y="2" width="776" height="28" class="header-bar"/>
-  <rect x="2" y="30" width="776" height="1" fill="#00ff66"/>
+  <rect x="2" y="30" width="776" height="1" fill="#7ee787"/>
 
   <!-- Pips -->
   <rect x="16" y="10" width="8" height="8" class="hud-pip"/>
@@ -63,24 +63,24 @@
   <rect x="40" y="10" width="8" height="8" class="hud-pip-dim"/>
 
   <!-- Title -->
-  <text x="390" y="19" text-anchor="middle" class="window-title">MECHA_LOG // UNIT-01 // >be_me.sh</text>
+  <text x="390" y="19" text-anchor="middle" class="window-title">CAT_LOG // UNIT-01 // >be_me.sh</text>
   <g class="line-0">
-    <text x="24" y="66" fill="#00ff66" class="pixel-text">>be me</text>
+    <text x="24" y="66" fill="#7ee787" class="pixel-text">>be me</text>
   </g>
   <g class="line-1">
-    <text x="24" y="91" fill="#829482" class="pixel-text">>CS student in Karachi</text>
+    <text x="24" y="91" fill="#8b949e" class="pixel-text">>CS student in Karachi</text>
   </g>
   <g class="line-2">
-    <text x="24" y="116" fill="#829482" class="pixel-text">>"just one more commit then sleep"</text>
+    <text x="24" y="116" fill="#8b949e" class="pixel-text">>"just one more commit then sleep"</text>
   </g>
   <g class="line-3">
-    <text x="24" y="141" fill="#00ff66" class="pixel-text">>it is 4am</text>
+    <text x="24" y="141" fill="#7ee787" class="pixel-text">>it is 4am</text>
   </g>
   <g class="line-4">
-    <text x="24" y="166" fill="#b8c9b8" class="pixel-text">>the bug was a missing semicolon</text>
+    <text x="24" y="166" fill="#aff5b4" class="pixel-text">>the bug was a missing semicolon</text>
   </g>
   <g class="line-5">
-    <text x="24" y="191" fill="#00ff66" class="pixel-text">>mfw</text>
+    <text x="24" y="191" fill="#7ee787" class="pixel-text">>mfw (=^･ω･^=)</text>
   </g>
-  <text x="80" y="191" class="cursor">█</text>
+  <text x="210" y="191" class="cursor">█</text>
 </svg>
