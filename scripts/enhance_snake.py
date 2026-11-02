@@ -52,3 +52,4 @@ def enhance_svg(file_path):
 if __name__ == "__main__":
     for p in glob.glob("dist/*.svg"):
         enhance_svg(p)
+
