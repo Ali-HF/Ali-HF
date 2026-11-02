@@ -165,7 +165,7 @@ Spotify now playing (needs https://spotify-github-profile.kittinunf.com setup):
 
 ### `/game.exe/` - play tic-tac-toe against my bot
 
-Click a square. It opens a pre-filled issue, just press **Submit new issue**. A GitHub Action plays your move and the bot's reply within about a minute.
+> 🎮 **How to play:** Click any `🔲` square ➔ On the issue page that opens, click the green **"Submit new issue"** button ➔ Wait ~30s and refresh this page. The bot will counter!
 
 <!--START_SECTION:ttt-->
 | &nbsp; | &nbsp; | &nbsp; |
@@ -187,7 +187,7 @@ The wall is empty. Be the first anon.
 ```
 <!--END_SECTION:guestbook-->
 
-### `/snake.exe/`
+### `/snake.exe/` (autonomous contribution screensaver)
 
 <div align="center">
 
