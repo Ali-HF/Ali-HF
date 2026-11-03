@@ -6,13 +6,12 @@
 
 <!--START_SECTION:banner-->
 ```text
- █████╗ ██╗     ██╗      ██╗  ██╗███████╗
-██╔══██╗██║     ██║      ██║  ██║██╔════╝
-███████║██║     ██║█████╗███████║█████╗  
-██╔══██║██║     ██║╚════╝██╔══██║██╔══╝  
-██║  ██║███████╗██║      ██║  ██║██║     
-╚═╝  ╚═╝╚══════╝╚═╝      ╚═╝  ╚═╝╚═╝     
-                                         
+    ___    __    ____     __  ________
+   /   |  / /   /  _/    / / / / ____/
+  / /| | / /    / /_____/ /_/ / /_    
+ / ___ |/ /____/ /_____/ __  / __/    
+/_/  |_/_____/___/    /_/ /_/_/       
+                                      
 ```
 <!--END_SECTION:banner-->
 
@@ -35,12 +34,12 @@ Host      : NED University, Karachi
 Class     : BCIT
 Guild     : hkh.agency
 Side quest: Notebloom
-Uptime    : 419 days on GitHub
+Uptime    : 420 days on GitHub
 Repos     : 31
 Stars     : 1
 Followers : 12
-Last push : 2h ago
-Updated   : 2026-11-02
+Last push : 1h ago
+Updated   : 2026-11-03
 ```
 <!--END_SECTION:neofetch-->
 
@@ -48,7 +47,7 @@ Updated   : 2026-11-02
 
 <!--START_SECTION:xp-->
 ```text
-LVL 10 [██████░░░░░░░░░░░░░░] 1741 / 2000 XP
+LVL 10 [██████░░░░░░░░░░░░░░] 1742 / 2000 XP
 CLASS: HACKER
 ```
 <!--END_SECTION:xp-->
@@ -136,12 +135,12 @@ Spotify now playing (needs https://spotify-github-profile.kittinunf.com setup):
 <!--START_SECTION:repos-->
 | Repository | Tech Stack | Last Active |
 | :--- | :---: | :---: |
-| [**HackInsight**](https://github.com/Ali-HF/HackInsight) | `Python` | 2h ago |
-| [**Ali-HF.github.io**](https://github.com/Ali-HF/Ali-HF.github.io) | `HTML` | 1d ago |
-| [**ned-3d-dsa-visualizer**](https://github.com/Ali-HF/ned-3d-dsa-visualizer) | `TypeScript` | 3d ago |
-| [**ned-portal-attendance-tracker**](https://github.com/Ali-HF/ned-portal-attendance-tracker) | `JavaScript` | 12d ago |
-| [**ned-prospectus-rag**](https://github.com/Ali-HF/ned-prospectus-rag) | `Python` | 19d ago |
-| [**github-pages-demo**](https://github.com/Ali-HF/github-pages-demo) | `CSS` | 19d ago |
+| [**HackInsight**](https://github.com/Ali-HF/HackInsight) | `Python` | 1h ago |
+| [**Ali-HF.github.io**](https://github.com/Ali-HF/Ali-HF.github.io) | `HTML` | 2d ago |
+| [**ned-3d-dsa-visualizer**](https://github.com/Ali-HF/ned-3d-dsa-visualizer) | `TypeScript` | 4d ago |
+| [**ned-portal-attendance-tracker**](https://github.com/Ali-HF/ned-portal-attendance-tracker) | `JavaScript` | 13d ago |
+| [**ned-prospectus-rag**](https://github.com/Ali-HF/ned-prospectus-rag) | `Python` | 20d ago |
+| [**github-pages-demo**](https://github.com/Ali-HF/github-pages-demo) | `CSS` | 20d ago |
 <!--END_SECTION:repos-->
 
 ### `/quests/` - active & completed builds
