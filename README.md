@@ -6,11 +6,15 @@
 
 <!--START_SECTION:banner-->
 ```text
-    ___    __    ____     __  ________
-   /   |  / /   /  _/    / / / / ____/
-  / /| | / /    / /_____/ /_/ / /_    
- / ___ |/ /____/ /_____/ __  / __/    
-/_/  |_/_____/___/    /_/ /_/_/       
+ ▄▄▄       ██▓     ██▓ ██░ ██   █████▒
+▒████▄    ▓██▒    ▓██▒▓██░ ██▒▓██   ▒ 
+▒██  ▀█▄  ▒██░    ▒██▒▒██▀▀██░▒████ ░ 
+░██▄▄▄▄██ ▒██░    ░██░░▓█ ░██ ░▓█▒  ░ 
+ ▓█   ▓██▒░██████▒░██░░▓█▒░██▓░▒█░    
+ ▒▒   ▓▒█░░ ▒░▓  ░░▓   ▒ ░░▒░▒ ▒ ░    
+  ▒   ▒▒ ░░ ░ ▒  ░ ▒ ░ ▒ ░▒░ ░ ░      
+  ░   ▒     ░ ░    ▒ ░ ░  ░░ ░ ░ ░    
+      ░  ░    ░  ░ ░   ░  ░  ░        
                                       
 ```
 <!--END_SECTION:banner-->
@@ -34,12 +38,12 @@ Host      : NED University, Karachi
 Class     : BCIT
 Guild     : hkh.agency
 Side quest: Notebloom
-Uptime    : 420 days on GitHub
-Repos     : 31
+Uptime    : 421 days on GitHub
+Repos     : 32
 Stars     : 1
 Followers : 12
-Last push : 1h ago
-Updated   : 2026-11-03
+Last push : 42m ago
+Updated   : 2026-11-04
 ```
 <!--END_SECTION:neofetch-->
 
@@ -47,7 +51,7 @@ Updated   : 2026-11-03
 
 <!--START_SECTION:xp-->
 ```text
-LVL 10 [██████░░░░░░░░░░░░░░] 1742 / 2000 XP
+LVL 10 [████████░░░░░░░░░░░░] 1782 / 2000 XP
 CLASS: HACKER
 ```
 <!--END_SECTION:xp-->
@@ -135,12 +139,12 @@ Spotify now playing (needs https://spotify-github-profile.kittinunf.com setup):
 <!--START_SECTION:repos-->
 | Repository | Tech Stack | Last Active |
 | :--- | :---: | :---: |
-| [**HackInsight**](https://github.com/Ali-HF/HackInsight) | `Python` | 1h ago |
-| [**Ali-HF.github.io**](https://github.com/Ali-HF/Ali-HF.github.io) | `HTML` | 2d ago |
-| [**ned-3d-dsa-visualizer**](https://github.com/Ali-HF/ned-3d-dsa-visualizer) | `TypeScript` | 4d ago |
-| [**ned-portal-attendance-tracker**](https://github.com/Ali-HF/ned-portal-attendance-tracker) | `JavaScript` | 13d ago |
-| [**ned-prospectus-rag**](https://github.com/Ali-HF/ned-prospectus-rag) | `Python` | 20d ago |
-| [**github-pages-demo**](https://github.com/Ali-HF/github-pages-demo) | `CSS` | 20d ago |
+| [**HackInsight**](https://github.com/Ali-HF/HackInsight) | `Python` | 42m ago |
+| [**personal-fitness-app**](https://github.com/Ali-HF/personal-fitness-app) | `Dart` | 16h ago |
+| [**Ali-HF.github.io**](https://github.com/Ali-HF/Ali-HF.github.io) | `HTML` | 20h ago |
+| [**ned-3d-dsa-visualizer**](https://github.com/Ali-HF/ned-3d-dsa-visualizer) | `TypeScript` | 5d ago |
+| [**ned-portal-attendance-tracker**](https://github.com/Ali-HF/ned-portal-attendance-tracker) | `JavaScript` | 14d ago |
+| [**ned-prospectus-rag**](https://github.com/Ali-HF/ned-prospectus-rag) | `Python` | 21d ago |
 <!--END_SECTION:repos-->
 
 ### `/quests/` - active & completed builds
