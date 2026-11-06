@@ -6,13 +6,12 @@
 
 <!--START_SECTION:banner-->
 ```text
- █████╗ ██╗     ██╗      ██╗  ██╗███████╗
-██╔══██╗██║     ██║      ██║  ██║██╔════╝
-███████║██║     ██║█████╗███████║█████╗  
-██╔══██║██║     ██║╚════╝██╔══██║██╔══╝  
-██║  ██║███████╗██║      ██║  ██║██║     
-╚═╝  ╚═╝╚══════╝╚═╝      ╚═╝  ╚═╝╚═╝     
-                                         
+    ___    __    ____     __  ________
+   /   |  / /   /  _/    / / / / ____/
+  / /| | / /    / /_____/ /_/ / /_    
+ / ___ |/ /____/ /_____/ __  / __/    
+/_/  |_/_____/___/    /_/ /_/_/       
+                                      
 ```
 <!--END_SECTION:banner-->
 
@@ -35,12 +34,12 @@ Host      : NED University, Karachi
 Class     : BCIT
 Guild     : hkh.agency
 Side quest: Notebloom
-Uptime    : 422 days on GitHub
-Repos     : 32
+Uptime    : 423 days on GitHub
+Repos     : 33
 Stars     : 1
 Followers : 12
-Last push : 29m ago
-Updated   : 2026-11-05
+Last push : 5h ago
+Updated   : 2026-11-06
 ```
 <!--END_SECTION:neofetch-->
 
@@ -48,7 +47,7 @@ Updated   : 2026-11-05
 
 <!--START_SECTION:xp-->
 ```text
-LVL 10 [████████░░░░░░░░░░░░] 1782 / 2000 XP
+LVL 10 [██████████░░░░░░░░░░] 1822 / 2000 XP
 CLASS: HACKER
 ```
 <!--END_SECTION:xp-->
@@ -136,12 +135,12 @@ Spotify now playing (needs https://spotify-github-profile.kittinunf.com setup):
 <!--START_SECTION:repos-->
 | Repository | Tech Stack | Last Active |
 | :--- | :---: | :---: |
-| [**HackInsight**](https://github.com/Ali-HF/HackInsight) | `Python` | 29m ago |
-| [**personal-fitness-app**](https://github.com/Ali-HF/personal-fitness-app) | `Dart` | 1d ago |
-| [**Ali-HF.github.io**](https://github.com/Ali-HF/Ali-HF.github.io) | `HTML` | 1d ago |
-| [**ned-3d-dsa-visualizer**](https://github.com/Ali-HF/ned-3d-dsa-visualizer) | `TypeScript` | 6d ago |
-| [**ned-portal-attendance-tracker**](https://github.com/Ali-HF/ned-portal-attendance-tracker) | `JavaScript` | 15d ago |
-| [**ned-prospectus-rag**](https://github.com/Ali-HF/ned-prospectus-rag) | `Python` | 22d ago |
+| [**google-forms-test-filler**](https://github.com/Ali-HF/google-forms-test-filler) | `Python` | 5h ago |
+| [**HackInsight**](https://github.com/Ali-HF/HackInsight) | `Python` | 6h ago |
+| [**personal-fitness-app**](https://github.com/Ali-HF/personal-fitness-app) | `Dart` | 16h ago |
+| [**Ali-HF.github.io**](https://github.com/Ali-HF/Ali-HF.github.io) | `HTML` | 2d ago |
+| [**ned-3d-dsa-visualizer**](https://github.com/Ali-HF/ned-3d-dsa-visualizer) | `TypeScript` | 7d ago |
+| [**ned-portal-attendance-tracker**](https://github.com/Ali-HF/ned-portal-attendance-tracker) | `JavaScript` | 16d ago |
 <!--END_SECTION:repos-->
 
 ### `/quests/` - active & completed builds
