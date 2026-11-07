@@ -50,21 +50,77 @@ def replace_chunk(content: str, marker: str, chunk: str, inline: bool = False) -
 
 
 def generate_banner() -> str:
-    """Generates the dripping AliHF banner centered using pyfiglet 'bloody' font."""
+    """Generates the dripping AliHF banner as a seamless vector SVG and returns embed tag."""
+    assets_dir = ROOT / "assets"
+    assets_dir.mkdir(parents=True, exist_ok=True)
+    svg_path = assets_dir / "banner.svg"
+
     raw = pyfiglet.figlet_format("AliHF", font="bloody")
     lines = [line.rstrip() for line in raw.splitlines()]
-
-    # Strip leading and trailing empty lines
     while lines and not lines[0]:
         lines.pop(0)
     while lines and not lines[-1]:
         lines.pop()
 
-    # Indent lines by 15 spaces to center the banner within GitHub's code block
-    indent = " " * 15
-    centered_lines = [f"{indent}{line}" for line in lines]
-    banner_text = "\n".join(centered_lines)
-    return f"```text\n{banner_text}\n```"
+    max_cols = max(len(l) for l in lines)
+    num_rows = len(lines)
+
+    cw = 11
+    ch = 18
+    pad_x = 15
+    pad_y = 15
+    svg_w = max_cols * cw + pad_x * 2
+    svg_h = num_rows * ch + pad_y * 2
+
+    rects = []
+    for r, line in enumerate(lines):
+        y = pad_y + r * ch
+        for c, char in enumerate(line):
+            x = pad_x + c * cw
+            if char == "█":
+                rects.append(f'    <rect x="{x}" y="{y}" width="{cw}" height="{ch}"/>')
+            elif char == "▀":
+                rects.append(f'    <rect x="{x}" y="{y}" width="{cw}" height="{ch//2}"/>')
+            elif char == "▄":
+                rects.append(f'    <rect x="{x}" y="{y + ch//2}" width="{cw}" height="{ch//2}"/>')
+            elif char == "▓":
+                rects.append(f'    <rect x="{x}" y="{y}" width="{cw}" height="{ch}" opacity="0.75"/>')
+            elif char == "▒":
+                rects.append(f'    <rect x="{x}" y="{y}" width="{cw}" height="{ch}" opacity="0.50"/>')
+            elif char == "░":
+                rects.append(f'    <rect x="{x}" y="{y}" width="{cw}" height="{ch}" opacity="0.25"/>')
+
+    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {svg_w} {svg_h}" width="{svg_w}" height="{svg_h}">
+  <defs>
+    <linearGradient id="drip-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#aff5b4"/>
+      <stop offset="60%" stop-color="#7ee787"/>
+      <stop offset="100%" stop-color="#56d364"/>
+    </linearGradient>
+    <linearGradient id="drip-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f883d"/>
+      <stop offset="100%" stop-color="#116329"/>
+    </linearGradient>
+    <style>
+      .drip-art {{
+        fill: url(#drip-light);
+        shape-rendering: crispEdges;
+      }}
+      @media (prefers-color-scheme: dark) {{
+        .drip-art {{
+          fill: url(#drip-dark);
+        }}
+      }}
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="none"/>
+  <g class="drip-art">
+{chr(10).join(rects)}
+  </g>
+</svg>
+'''
+    svg_path.write_text(svg_content, encoding="utf-8")
+    return f'<p align="center"><img src="assets/banner.svg" width="{svg_w}" alt="AliHF"></p>'
 
 
 def format_relative_time(dt_str: str) -> str:

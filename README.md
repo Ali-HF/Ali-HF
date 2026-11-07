@@ -1,20 +1,6 @@
-<div align="center">
-
 <!-- banner starts -->
-```text
-                ▄▄▄       ██▓     ██▓ ██░ ██   █████▒
-               ▒████▄    ▓██▒    ▓██▒▓██░ ██▒▓██   ▒
-               ▒██  ▀█▄  ▒██░    ▒██▒▒██▀▀██░▒████ ░
-               ░██▄▄▄▄██ ▒██░    ░██░░▓█ ░██ ░▓█▒  ░
-                ▓█   ▓██▒░██████▒░██░░▓█▒░██▓░▒█░
-                ▒▒   ▓▒█░░ ▒░▓  ░░▓   ▒ ░░▒░▒ ▒ ░
-                 ▒   ▒▒ ░░ ░ ▒  ░ ▒ ░ ▒ ░▒░ ░ ░
-                 ░   ▒     ░ ░    ▒ ░ ░  ░░ ░ ░ ░
-                     ░  ░    ░  ░ ░   ░  ░  ░
-```
+<p align="center"><img src="assets/banner.svg" width="448" alt="AliHF"></p>
 <!-- banner ends -->
-
-</div>
 
 <p align="center"><img src="koi/koi.gif" width="256" alt="Koi drawn from my GitHub activity"></p>
 
