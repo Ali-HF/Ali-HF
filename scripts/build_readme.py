@@ -50,7 +50,7 @@ def replace_chunk(content: str, marker: str, chunk: str, inline: bool = False) -
 
 
 def generate_banner() -> str:
-    """Generates the dripping AliHF banner using pyfiglet 'bloody' font."""
+    """Generates the dripping AliHF banner centered using pyfiglet 'bloody' font."""
     raw = pyfiglet.figlet_format("AliHF", font="bloody")
     lines = [line.rstrip() for line in raw.splitlines()]
 
@@ -60,7 +60,10 @@ def generate_banner() -> str:
     while lines and not lines[-1]:
         lines.pop()
 
-    banner_text = "\n".join(lines)
+    # Indent lines by 15 spaces to center the banner within GitHub's code block
+    indent = " " * 15
+    centered_lines = [f"{indent}{line}" for line in lines]
+    banner_text = "\n".join(centered_lines)
     return f"```text\n{banner_text}\n```"
 
 

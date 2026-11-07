@@ -1,16 +1,20 @@
+<div align="center">
+
 <!-- banner starts -->
 ```text
- ▄▄▄       ██▓     ██▓ ██░ ██   █████▒
-▒████▄    ▓██▒    ▓██▒▓██░ ██▒▓██   ▒
-▒██  ▀█▄  ▒██░    ▒██▒▒██▀▀██░▒████ ░
-░██▄▄▄▄██ ▒██░    ░██░░▓█ ░██ ░▓█▒  ░
- ▓█   ▓██▒░██████▒░██░░▓█▒░██▓░▒█░
- ▒▒   ▓▒█░░ ▒░▓  ░░▓   ▒ ░░▒░▒ ▒ ░
-  ▒   ▒▒ ░░ ░ ▒  ░ ▒ ░ ▒ ░▒░ ░ ░
-  ░   ▒     ░ ░    ▒ ░ ░  ░░ ░ ░ ░
-      ░  ░    ░  ░ ░   ░  ░  ░
+                ▄▄▄       ██▓     ██▓ ██░ ██   █████▒
+               ▒████▄    ▓██▒    ▓██▒▓██░ ██▒▓██   ▒
+               ▒██  ▀█▄  ▒██░    ▒██▒▒██▀▀██░▒████ ░
+               ░██▄▄▄▄██ ▒██░    ░██░░▓█ ░██ ░▓█▒  ░
+                ▓█   ▓██▒░██████▒░██░░▓█▒░██▓░▒█░
+                ▒▒   ▓▒█░░ ▒░▓  ░░▓   ▒ ░░▒░▒ ▒ ░
+                 ▒   ▒▒ ░░ ░ ▒  ░ ▒ ░ ▒ ░▒░ ░ ░
+                 ░   ▒     ░ ░    ▒ ░ ░  ░░ ░ ░ ░
+                     ░  ░    ░  ░ ░   ░  ░  ░
 ```
 <!-- banner ends -->
+
+</div>
 
 <p align="center"><img src="koi/koi.gif" width="256" alt="Koi drawn from my GitHub activity"></p>
 
@@ -24,7 +28,7 @@ Currently studying BCIT at NED University in Karachi toward becoming an AI engin
 
 [HackInsight](https://github.com/Ali-HF/HackInsight) - 3 hours ago
 
-[google-forms-test-filler](https://github.com/Ali-HF/google-forms-test-filler) - 20 hours ago
+[google-forms-test-filler](https://github.com/Ali-HF/google-forms-test-filler) - 21 hours ago
 
 [personal-fitness-app](https://github.com/Ali-HF/personal-fitness-app) - yesterday
 
