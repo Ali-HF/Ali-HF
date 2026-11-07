@@ -146,22 +146,13 @@ def fetch_recent_pushes(username: str = "Ali-HF") -> list[str] | None:
     for r in top_repos:
         name = r.get("name")
         html_url = r.get("html_url")
-        desc = (r.get("description") or "").strip()
         pushed_at = r.get("pushed_at") or ""
         time_ago = format_relative_time(pushed_at) if pushed_at else ""
 
-        if desc:
-            # Flatten multi-line descriptions into a single line
-            flat_desc = " ".join(desc.split())
-            if time_ago:
-                lines.append(f"* [{name}]({html_url}) - {flat_desc} ({time_ago})")
-            else:
-                lines.append(f"* [{name}]({html_url}) - {flat_desc}")
+        if time_ago:
+            lines.append(f"[{name}]({html_url}) - {time_ago}")
         else:
-            if time_ago:
-                lines.append(f"* [{name}]({html_url}) ({time_ago})")
-            else:
-                lines.append(f"* [{name}]({html_url})")
+            lines.append(f"[{name}]({html_url})")
 
     return lines
 
@@ -201,9 +192,9 @@ def fetch_tils(til_dir: pathlib.Path) -> list[str]:
         date_match = re.match(r"^(\d{4}-\d{2}-\d{2})", path.name)
         if date_match:
             date_str = date_match.group(1)
-            items.append(f"* [{title}]({rel_path}) - {date_str}")
+            items.append(f"[{title}]({rel_path}) - {date_str}")
         else:
-            items.append(f"* [{title}]({rel_path})")
+            items.append(f"[{title}]({rel_path})")
 
     return items
 
@@ -239,7 +230,7 @@ def fetch_blog_feed(feed_url: str) -> list[str] | None:
             date_str = pub_el.text.strip()[:10] if pub_el is not None and pub_el.text else ""
             if link:
                 suffix = f" - {date_str}" if date_str else ""
-                entries.append(f"* [{title}]({link}){suffix}")
+                entries.append(f"[{title}]({link}){suffix}")
         return entries
 
     # RSS items
@@ -254,7 +245,7 @@ def fetch_blog_feed(feed_url: str) -> list[str] | None:
             date_str = pub_el.text.strip()[:16] if pub_el is not None and pub_el.text else ""
             if link:
                 suffix = f" - {date_str}" if date_str else ""
-                entries.append(f"* [{title}]({link}){suffix}")
+                entries.append(f"[{title}]({link}){suffix}")
         return entries
 
     return entries
@@ -279,7 +270,7 @@ def main():
         pushes = fetch_recent_pushes()
         if pushes is not None:
             if pushes:
-                chunk = "\n".join(pushes)
+                chunk = "\n\n".join(pushes)
             else:
                 chunk = "*No recent public pushes.*"
             updated = replace_chunk(updated, "recent_pushes", chunk)
@@ -291,7 +282,7 @@ def main():
     if "<!-- tils starts -->" in content:
         tils = fetch_tils(ROOT / "til")
         if tils:
-            chunk = "\n".join(tils)
+            chunk = "\n\n".join(tils)
         else:
             chunk = "*No TILs yet.*"
         updated = replace_chunk(updated, "tils", chunk)
@@ -303,7 +294,7 @@ def main():
         feed_entries = fetch_blog_feed(blog_feed)
         if feed_entries is not None:
             if feed_entries:
-                chunk = "\n".join(feed_entries)
+                chunk = "\n\n".join(feed_entries)
             else:
                 chunk = "*No posts found.*"
             updated = replace_chunk(updated, "writing", chunk)
