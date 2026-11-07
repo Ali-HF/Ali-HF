@@ -14,7 +14,7 @@
 
 <p align="center"><img src="koi/koi.gif" width="256" alt="Koi drawn from my GitHub activity"></p>
 
-Currently studying BCIT at NED University in Karachi toward becoming an AI engineer, and running [Notebloom](https://notebloom.co) and [hkh.agency](https://hkh.agency). Connect on [LinkedIn](https://www.linkedin.com/in/ali-hasan-897516384), check out my [terminal portfolio](https://ali-hf.github.io), or email [hf.alihasan0@gmail.com](mailto:hf.alihasan0@gmail.com).
+Currently studying BCIT at NED University in Karachi toward becoming an AI engineer, and running Notebloom (a stationery brand). Connect on [LinkedIn](https://www.linkedin.com/in/ali-hasan-897516384), check out my [terminal portfolio](https://ali-hf.github.io), or email [hf.alihasan0@gmail.com](mailto:hf.alihasan0@gmail.com).
 
 <table><tr><td valign="top" width="33%">
 
