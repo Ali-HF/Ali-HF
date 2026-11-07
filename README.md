@@ -6,11 +6,15 @@
 
 <!--START_SECTION:banner-->
 ```text
-    ___    __    ____     __  ________
-   /   |  / /   /  _/    / / / / ____/
-  / /| | / /    / /_____/ /_/ / /_    
- / ___ |/ /____/ /_____/ __  / __/    
-/_/  |_/_____/___/    /_/ /_/_/       
+ ▄▄▄       ██▓     ██▓ ██░ ██   █████▒
+▒████▄    ▓██▒    ▓██▒▓██░ ██▒▓██   ▒ 
+▒██  ▀█▄  ▒██░    ▒██▒▒██▀▀██░▒████ ░ 
+░██▄▄▄▄██ ▒██░    ░██░░▓█ ░██ ░▓█▒  ░ 
+ ▓█   ▓██▒░██████▒░██░░▓█▒░██▓░▒█░    
+ ▒▒   ▓▒█░░ ▒░▓  ░░▓   ▒ ░░▒░▒ ▒ ░    
+  ▒   ▒▒ ░░ ░ ▒  ░ ▒ ░ ▒ ░▒░ ░ ░      
+  ░   ▒     ░ ░    ▒ ░ ░  ░░ ░ ░ ░    
+      ░  ░    ░  ░ ░   ░  ░  ░        
                                       
 ```
 <!--END_SECTION:banner-->
@@ -34,12 +38,12 @@ Host      : NED University, Karachi
 Class     : BCIT
 Guild     : hkh.agency
 Side quest: Notebloom
-Uptime    : 423 days on GitHub
+Uptime    : 424 days on GitHub
 Repos     : 33
 Stars     : 1
 Followers : 12
-Last push : 5h ago
-Updated   : 2026-11-06
+Last push : 1h ago
+Updated   : 2026-11-07
 ```
 <!--END_SECTION:neofetch-->
 
@@ -135,12 +139,12 @@ Spotify now playing (needs https://spotify-github-profile.kittinunf.com setup):
 <!--START_SECTION:repos-->
 | Repository | Tech Stack | Last Active |
 | :--- | :---: | :---: |
-| [**google-forms-test-filler**](https://github.com/Ali-HF/google-forms-test-filler) | `Python` | 5h ago |
+| [**ned-3d-dsa-visualizer**](https://github.com/Ali-HF/ned-3d-dsa-visualizer) | `TypeScript` | 1h ago |
 | [**HackInsight**](https://github.com/Ali-HF/HackInsight) | `Python` | 6h ago |
-| [**personal-fitness-app**](https://github.com/Ali-HF/personal-fitness-app) | `Dart` | 16h ago |
-| [**Ali-HF.github.io**](https://github.com/Ali-HF/Ali-HF.github.io) | `HTML` | 2d ago |
-| [**ned-3d-dsa-visualizer**](https://github.com/Ali-HF/ned-3d-dsa-visualizer) | `TypeScript` | 7d ago |
-| [**ned-portal-attendance-tracker**](https://github.com/Ali-HF/ned-portal-attendance-tracker) | `JavaScript` | 16d ago |
+| [**google-forms-test-filler**](https://github.com/Ali-HF/google-forms-test-filler) | `Python` | 16h ago |
+| [**personal-fitness-app**](https://github.com/Ali-HF/personal-fitness-app) | `Dart` | 1d ago |
+| [**Ali-HF.github.io**](https://github.com/Ali-HF/Ali-HF.github.io) | `HTML` | 3d ago |
+| [**ned-portal-attendance-tracker**](https://github.com/Ali-HF/ned-portal-attendance-tracker) | `JavaScript` | 17d ago |
 <!--END_SECTION:repos-->
 
 ### `/quests/` - active & completed builds
