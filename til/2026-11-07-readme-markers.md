@@ -28,3 +28,4 @@ def replace_chunk(content: str, marker: str, replacement: str) -> str:
 ```
 
 3. **Human-friendly**: If an automated script fails (for example, if an external API rate-limits or errors out), the workflow can simply leave the file untouched. The author remains free to edit other parts of the README without interfering with the automated sections.
+

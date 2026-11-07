@@ -50,12 +50,8 @@ def replace_chunk(content: str, marker: str, chunk: str, inline: bool = False) -
 
 
 def generate_banner() -> str:
-    """Generates ASCII banner rotated daily using pyfiglet ASCII fonts."""
-    today = datetime.now(timezone.utc).date()
-    font_index = today.toordinal() % len(FONTS)
-    font = FONTS[font_index]
-
-    raw = pyfiglet.figlet_format("ALI-HF", font=font)
+    """Generates the dripping AliHF banner using pyfiglet 'bloody' font."""
+    raw = pyfiglet.figlet_format("AliHF", font="bloody")
     lines = [line.rstrip() for line in raw.splitlines()]
 
     # Strip leading and trailing empty lines
@@ -322,3 +318,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

@@ -1,10 +1,14 @@
 <!-- banner starts -->
 ```text
-    ___    __    ____     __  ________
-   /   |  / /   /  _/    / / / / ____/
-  / /| | / /    / /_____/ /_/ / /_
- / ___ |/ /____/ /_____/ __  / __/
-/_/  |_/_____/___/    /_/ /_/_/
+ ▄▄▄       ██▓     ██▓ ██░ ██   █████▒
+▒████▄    ▓██▒    ▓██▒▓██░ ██▒▓██   ▒
+▒██  ▀█▄  ▒██░    ▒██▒▒██▀▀██░▒████ ░
+░██▄▄▄▄██ ▒██░    ░██░░▓█ ░██ ░▓█▒  ░
+ ▓█   ▓██▒░██████▒░██░░▓█▒░██▓░▒█░
+ ▒▒   ▓▒█░░ ▒░▓  ░░▓   ▒ ░░▒░▒ ▒ ░
+  ▒   ▒▒ ░░ ░ ▒  ░ ▒ ░ ▒ ░▒░ ░ ░
+  ░   ▒     ░ ░    ▒ ░ ░  ░░ ░ ░ ░
+      ░  ░    ░  ░ ░   ░  ░  ░
 ```
 <!-- banner ends -->
 
@@ -41,7 +45,3 @@ I also run Notebloom (a stationery brand) and hkh.agency (a marketing agency).
 <!-- tils ends -->
 
 </td></tr></table>
-
----
-
-Modeled on [Simon Willison's self-updating profile README](https://simonwillison.net/2020/jul/10/self-updating-profile-readme/).
