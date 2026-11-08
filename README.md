@@ -10,15 +10,15 @@ Currently studying BCIT at NED University in Karachi toward becoming an AI engin
 
 ### Recent pushes
 <!-- recent_pushes starts -->
-[ned-3d-dsa-visualizer](https://github.com/Ali-HF/ned-3d-dsa-visualizer) - 2 hours ago
+[HackInsight](https://github.com/Ali-HF/HackInsight) - 3 hours ago
 
-[HackInsight](https://github.com/Ali-HF/HackInsight) - 6 hours ago
+[ned-3d-dsa-visualizer](https://github.com/Ali-HF/ned-3d-dsa-visualizer) - 11 hours ago
 
-[blog](https://github.com/Ali-HF/blog) - 21 hours ago
+[blog](https://github.com/Ali-HF/blog) - yesterday
 
-[google-forms-test-filler](https://github.com/Ali-HF/google-forms-test-filler) - yesterday
+[google-forms-test-filler](https://github.com/Ali-HF/google-forms-test-filler) - 2 days ago
 
-[personal-fitness-app](https://github.com/Ali-HF/personal-fitness-app) - 2 days ago
+[personal-fitness-app](https://github.com/Ali-HF/personal-fitness-app) - 3 days ago
 <!-- recent_pushes ends -->
 More [recent pushes](https://github.com/Ali-HF?tab=repositories)
 </td><td valign="top" width="34%">
