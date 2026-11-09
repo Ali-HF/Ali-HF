@@ -12,7 +12,7 @@ Currently studying BCIT at NED University in Karachi toward becoming an AI engin
 <!-- recent_pushes starts -->
 [HackInsight](https://github.com/Ali-HF/HackInsight) - 3 hours ago
 
-[ned-3d-dsa-visualizer](https://github.com/Ali-HF/ned-3d-dsa-visualizer) - 11 hours ago
+[ned-3d-dsa-visualizer](https://github.com/Ali-HF/ned-3d-dsa-visualizer) - 18 hours ago
 
 [blog](https://github.com/Ali-HF/blog) - yesterday
 
