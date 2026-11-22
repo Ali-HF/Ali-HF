@@ -10,11 +10,11 @@ Currently studying BCIT at NED University in Karachi toward becoming an AI engin
 
 ### Recent pushes
 <!-- recent_pushes starts -->
-[HackInsight](https://github.com/Ali-HF/HackInsight) - 2 hours ago
+[HackInsight](https://github.com/Ali-HF/HackInsight) - 3 hours ago
 
 [ned-3d-dsa-visualizer](https://github.com/Ali-HF/ned-3d-dsa-visualizer) - 4 days ago
 
-[earth-jukebox-pakistan](https://github.com/Ali-HF/earth-jukebox-pakistan) - 7 days ago
+[earth-jukebox-pakistan](https://github.com/Ali-HF/earth-jukebox-pakistan) - 8 days ago
 
 [blog](https://github.com/Ali-HF/blog) - 14 days ago
 
